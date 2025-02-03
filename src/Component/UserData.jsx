@@ -102,7 +102,7 @@ function UserData() {
                                 </div>
                                 <div className='w-[10%] h-[100%] flex items-center justify-center'>
                                     {/* <Link to={`/product/${el.id}`}>  */}
-                                        <button id='btn1' onClick={()=>handelEdite(el.id)}>Edite</button>
+                                        <button id='btn1' onClick={()=>handelEdite(el.id)}>Edit</button>
                                     {/* </Link> */}
                                 </div>
                                 <div className='w-[10%] h-[100%]  flex items-center justify-center'>

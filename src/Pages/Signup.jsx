@@ -153,19 +153,19 @@ return (
 <>    <div className='mainsignup'>
     <form  id='signup' action="" onSubmit={gayoData}>
           <h1 className='h1'>Sign Up</h1>
-          <input className='signupinput' type="text" value={obj.user} name='user' placeholder='Enter Your User Name' onChange={handelChange} onBlur={javTyare} onFocus={aavoTyare}/>
+          <input  id='intr' className='signupinput' type="text" value={obj.user} name='user' placeholder='Enter Your User Name' onChange={handelChange} onBlur={javTyare} onFocus={aavoTyare}/>
           {userErr == true ?<p className='p1'>Wrong User Name</p> : ""}
           
-          <input className='signupinput' type="text" value={obj.email} name='email'  placeholder='Enter Your Email' onChange={handelChange} onBlur={javTyare} onFocus={aavoTyare}/>
+          <input  id='intr' className='signupinput' type="text" value={obj.email} name='email'  placeholder='Enter Your Email' onChange={handelChange} onBlur={javTyare} onFocus={aavoTyare}/>
           {emailErr == true ?<p className='p1'>Valid Email Id</p> : ""}
 
 
-          <input className='signupinput' type="text" value={obj.pass} name='pass' placeholder='Enter Your Password' onChange={handelChange} onBlur={javTyare} onFocus={aavoTyare}/>
+          <input  id='intr' className='signupinput' type="text" value={obj.pass} name='pass' placeholder='Enter Your Password' onChange={handelChange} onBlur={javTyare} onFocus={aavoTyare}/>
           {passErr == true ?<p className='p1'>Enter Strong Password</p> : ""}
 
-          <input className='signupinputbtn ' type="submit" value={ localStorage.getItem("chaki") ? 'Edite': 'Submit' }/>
+          <input className='signupinputbtn '    id='subbt'  type="submit" value={ localStorage.getItem("chaki") ? 'Edite': 'Submit' }/>
 
-          <Link to={'/login'} className='center'> <p className="center mt-2">Account Already Exist</p></Link>
+          <Link to={'/login'} className='center'> <p className=" kk center mt-2">Account Already Exist</p></Link>
     </form>
 </div>
 {/* <UserData/> */}

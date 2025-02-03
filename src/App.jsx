@@ -228,7 +228,7 @@ function App() {
                 <div className='flex w-[85%] sm:w-[50%] h-[70%]     lg:w-[60%] h-[70%] lg:justify-end  items-center justify-evenly '>
                   <div className='w-[70%] sm:w-[40%] h-[100%]   flex items-center justify-evenly relative'>
         
-                    <i class="fa-solid fa-magnifying-glass text-gray-300 text-[15px] absolute top-5 left-2"></i>
+                    {/* <i class="fa-solid   fa-magnifying-glass text-gray-300 text-[15px] absolute top-5 left-2"></i> */}
                     <input className='w-[70%] h-[30px]  bg-[gray] sm:w-[90%]  xl:ms-[-17px] sm:ms-[5px]  lg:h-[35px] lg:w-[300px] text-[20px] border-1 border-gray-400 rounded-[12px] ps-[20px] ' type="text" placeholder='Search' /> </div>
         
         
@@ -251,7 +251,7 @@ function App() {
                     </div>
                   <Link > 
                   
-                  <button onClick={handelLogout} className='cursor-pointer text-[14px] border-[#6A6657]  rounded-[10px]  bg-[#19191C]  border w-[100px]  h-[35px] ms-[10px]  ' id=''>LOGOUT <i class="fa-solid fa-right-from-bracket ms-2"></i></button></Link>
+                  <button onClick={handelLogout} className='cursor-pointer text-[14px] border-[#6A6657]  rounded-[10px]  bg-[#19191C]  border w-[100px]  h-[35px] ms-[10px]  ' id='goot'>LOGOUT <i class="fa-solid fa-right-from-bracket ms-2"></i></button></Link>
                   </div>
         
                 </div>

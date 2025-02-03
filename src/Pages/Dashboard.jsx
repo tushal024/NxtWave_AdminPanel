@@ -39,9 +39,9 @@ function Dashboard() {
               <b>22%</b>
             </div>
           </div>
-<div className='w-full h-[300px] sm:mb-[0px] lg:mb-[110px] grid grid-cols-1 gap-2 md:grid-cols-2  '>
-  <div  className='h-[100%] border ' > <BarChart/></div>
-  <div  className='h-[100%] border ' ><LineChart/></div>
+<div className='w-full h-[400px] mb-[20px] sm:mb-[0px] lg:mb-[0px] grid grid-cols-1 gap-4 md:grid-cols-2  '>
+  <div  className='h-[100%]    ' > <BarChart/></div>
+  <div  className='h-[100%]    ' ><LineChart/></div>
 </div>
 
     {/* {dataa?.isLoading ? <Skeleton /> : <Data />} */}
