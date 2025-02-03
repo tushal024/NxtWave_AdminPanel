@@ -1,0 +1,434 @@
+
+/* Data css */
+
+body{
+  background-color: #242429;
+  ::-webkit-scrollbar{
+    width: 10px;
+  }
+}
+
+#btn1{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+#btn1:hover{
+  background-color: green;
+  box-shadow: 0 0 10px 0 rgb(125, 125, 125);
+}
+.sele{
+  outline: none;
+  border: none;
+}
+.top1{
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/001/401/677/small_2x/abstract-polygonal-shape-black-background-free-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#btn2{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+#btn2:hover{
+  background-color: red;
+  box-shadow: 0 0 10px 0 rgb(125, 125, 125);
+}
+.sidebtn{
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 130px;
+  height:40px;
+  border-radius: 8px;
+}
+.sidebtn:hover{
+  background-color: #f44336;
+  box-shadow: 0 0 10px 0;
+}
+
+#subbt{
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#subbt:hover   {
+  transform: scale(0.95);
+  border: 1px solid gray;
+  background-color: #242429;
+
+
+
+}
+.top{
+  background-color: black;
+  background-image: url("https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kk{
+
+}
+
+#intr{
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+}
+
+#intr:focus{
+  outline: none;
+}
+
+
+/* user data css  */
+
+.sidebtn2{
+  background-color: #f44336;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  height:40px;
+  border-radius: 8px;
+}
+/* product css  */
+
+
+#btn11{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    height: 25px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+#btn22{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    height: 30px;
+    border-radius: 8px;
+}
+.show{
+  background-image: url("https://t4.ftcdn.net/jpg/09/69/28/53/360_F_969285367_NuVZTFpgZnpMobKKOXi5ktg1lpCvwgFP.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* signup css  */
+  .mainsignup{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #signup{
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 20px 0 rgb(105, 105, 105);
+
+  }
+  .h1{
+    /* margin-bottom: 25px; */
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .signupinput{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(170, 170, 170); 
+    /* border-bottom: 1px solid rgb(147, 147, 147); */
+  }
+  .signupinputbtn{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px 0 rgb(74, 74, 74);
+    margin-bottom: 15px;
+  }
+  .p1{
+    color: red;
+    font-size: 14px;
+    font-weight: 900;
+  }
+  .center{
+    text-align: center;
+  }
+  /* login  */
+
+  .loginmain{
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .form{
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(105, 105, 105);
+  }
+  .h1{
+    margin-bottom: 25px;
+  }
+  .lohinput{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(147, 147, 147);
+  }
+  .lohinputbtn{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 10px;
+    box-shadow: 0 0 10px 0 rgb(45, 45, 45);
+  }
+  .googel{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 10px;
+  box-shadow: 0 0 10px 0 rgb(45, 45, 45);
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+  /* body{
+    background-color: #171717;
+    color: white;
+  } */
+  /* asidebar css  */
+  
+  .sidebar {
+    /* width: 250px; */
+    /* height: 100%; */
+    /* background-color: #262626; */
+    border: 1px solid black;
+    color: white;
+    position: fixed;
+    /* top: 0; */
+    left: -20%; 
+  
+    transition: left 0.5s ease-in-out;
+    padding: 20px;
+  }
+  #side2{
+    margin-left: 20%;
+  }
+  
+  .sidebar.open {
+    left: 0; 
+  }
+  /* .sidebar2.close {
+    left:0%; 
+  } */
+  
+  #ss{
+    transition: left 0.5s ease-in-out;
+  
+  
+  }
+  
+  #bt1{
+  
+     position: absolute;
+    left: 50px;
+  
+  }
+  
+  
+  #derr::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  .toggle-btn {
+    position: absolute;
+    top: 20px;
+    left: 1000px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    
+  }
+  
+
+  /* navbar css  */
+
+  #icon1{
+    color: #fedb5b;
+  }
+  #H1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  #P1{
+    font-size: 15px;
+    color: gray;
+  }
+  #icon2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding-top: 7px;
+    padding-left: 7px;
+    background-color: white;
+  }
+
+  /* Product form css  */
+
+  .ProductFormMain{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .productForm{
+    width: 400px;
+    height: auto;
+    box-shadow: 0 0 20px 0 rgb(105, 105, 105);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+  }
+  .h1{
+    margin-bottom: 25px;
+  }
+  #productInput{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(100, 100, 100);
+  }
+  #productInputBtn{
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border: 1px solid black;
+  }
+
+  /* Skeleton css  */
+  .skeleton-container {
+    width: 100%;
+    padding: 20px;
+    /* background-color: #fff; */
+    background-color: black;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+  }
+  
+  .skeleton {
+    /* background-color: #e0e0e0; */
+    background-color: black;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .skeleton-header {
+    height: 20px;
+    width: 80%;
+  }
+  
+  .skeleton-text {
+    height: 12px;
+    width: 100%;
+  }
+  
+  .skeleton-footer {
+    height: 20px;
+    width: 50%;
+  }
+  
+  @keyframes loading {
+    0% {
+      background-position: -200%;
+    }
+    100% {
+      background-position: 200%;
+    }
+  }
+  
+  .skeleton {
+    animation: loading 1.5s infinite linear;
+    /* background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%); */
+    background-color: gray;
+
+    background-size: 200% 100%;
+  }
+  
+  .l{
+
+    border-color: rgba(128, 128, 128, 0.463);
+  }
+  #nnj{
+    background-image: url("https://img.pikbest.com/wp/202405/laptop-tablet-black-isolated-3d-render-of-and-phone-set-mockup_9796667.jpg!sw800");
+    /* background-image: url(""); */
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(27, 27, 27, 0.743);
+
+
+
+}
+
+#koko{
+  border-bottom-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+}
