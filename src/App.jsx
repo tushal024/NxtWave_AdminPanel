@@ -35,7 +35,7 @@ function App() {
 
       <div
           id="sidebars"
-          className={`h-auto sm:w-[100%] bg-[#19191C]  text-[white] absolute lg:static transition-all duration-500 ease-in-out ${isOpen ? 'lg:w-[15%] w-[60%] sm:right-[100%] lg:right-[0]' : 'lg:w-[4%] xl:ps-[2%] xl:w-[6%] w-0  ms-[-50px] sm:w-[350px]'
+          className={`h-auto sm:w-[100%] bg-[#19191C] z-40  text-[white] absolute lg:static transition-all duration-500 ease-in-out ${isOpen ? 'lg:w-[15%] w-[60%] sm:right-[100%] lg:right-[0]' : 'lg:w-[4%] xl:ps-[2%] xl:w-[6%] w-0  ms-[-50px] sm:w-[350px]'
             }`}
         >
 
@@ -46,7 +46,7 @@ function App() {
 
 
             <Link to={'/'}>
-            <div id="Logo" className="w-[100%] h-[80px] border  border-[#6A6657]  flex justify-center items-center">
+            <div id="Logo" className="w-[100%] h-[80px]   border-[#6A6657]  flex justify-center items-center">
               <h1 className="text-[36px] font-[600]">
                 <i className="fa-regular fa-chess-king"></i> Tushal
               </h1>
@@ -73,7 +73,7 @@ function App() {
               </button>
             )}
  <Link to={'/'}>
-            <div className="w-[100%] h-[50px] mt-[30px] ps-[5%] pe-[5%] flex justify-between items-center" id="register">
+            <div className="w-[100%]  z-40 h-[50px] mt-[30px] ps-[5%] pe-[5%] flex justify-between items-center" id="register">
               <div className="w-[20%] h-[100%] flex justify-center items-center">
                 <i className="fa-solid fa-house-chimney text-[24px]"></i>
               </div>
@@ -132,7 +132,7 @@ function App() {
             </Link>
 
              
-          </div> : <div id="minidiv"  className='h-[100vh]' >
+          </div> : <div id="minidiv"  className='h-[100vh] z-40 ' >
 
 
             <button
@@ -144,7 +144,7 @@ function App() {
             </button>
             <Link to={'/'}>
 
-            <div id="Logo" className="w-[100%] h-[80px] flex border  border-[#6A6657]  justify-center items-center">
+            <div id="Logo" className="w-[100%] h-[80px] flex   border-[#6A6657]  justify-center items-center">
               <i className="fa-regular fa-chess-king text-[35px] "></i>
             </div>
             </Link>
@@ -229,7 +229,7 @@ function App() {
                   <div className='w-[70%] sm:w-[40%] h-[100%]   flex items-center justify-evenly relative'>
         
                     {/* <i class="fa-solid   fa-magnifying-glass text-gray-300 text-[15px] absolute top-5 left-2"></i> */}
-                    <input className='w-[70%] h-[30px]  bg-[gray] sm:w-[90%]  xl:ms-[-17px] sm:ms-[5px]  lg:h-[35px] lg:w-[300px] text-[20px] border-1 border-gray-400 rounded-[12px] ps-[20px] ' type="text" placeholder='Search' /> </div>
+                    <input className='w-[70%]  z-0 h-[30px]  bg-[gray] sm:w-[90%]  xl:ms-[-17px] sm:ms-[5px]  lg:h-[35px] lg:w-[300px] text-[20px] border-1 border-gray-400 rounded-[12px] ps-[20px] ' type="text" placeholder='Search' /> </div>
         
         
                   {/* <div className='flex items-center w-[120px] lg:w-[125px] xl:w-[200px]  hidden '>
