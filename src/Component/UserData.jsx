@@ -72,9 +72,9 @@ function UserData() {
                         <div className='w-[18%] h-[100%] flex items-center justify-center'>
                             <h1 className='text-[18px] font-medium'>User Email</h1>
                         </div>
-                        <div className='w-[15%] h-[100%] flex items-center justify-center'>
+                        {/* <div className='w-[15%] h-[100%] flex items-center justify-center'>
                             <h1 className='text-[18px] font-medium'>User Password</h1>
-                        </div>
+                        </div> */}
                         <div className='w-[10%] h-[100%] flex items-center justify-center'>
                             <h1 className='text-[18px] font-medium'>Edit</h1>
                         </div>
@@ -97,9 +97,9 @@ function UserData() {
                                 <div className='w-[18%] h-[100%] flex items-center justify-center'>
                                     <h1 className='text-[18px]'>{el.email}</h1>
                                 </div>
-                                <div className='w-[15%] h-[100%]  flex items-center justify-center'>
+                                {/* <div className='w-[15%] h-[100%]  flex items-center justify-center'>
                                     <h1 className='text-[18px]'>{el.pass}</h1>
-                                </div>
+                                </div> */}
                                 <div className='w-[10%] h-[100%] flex items-center justify-center'>
                                     {/* <Link to={`/product/${el.id}`}>  */}
                                         <button id='btn1' onClick={()=>handelEdite(el.id)}>Edit</button>

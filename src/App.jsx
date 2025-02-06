@@ -266,7 +266,7 @@ function App() {
 
           
      
-          <div  className='scroll-smooth h-[91.5vh]  overflow-auto  border-[red]  ' >
+          <div  className='scroll-smooth h-[91.5vh]  overflow-auto p-2 border-[red]  ' >
          
 
         <MainRouts/>
