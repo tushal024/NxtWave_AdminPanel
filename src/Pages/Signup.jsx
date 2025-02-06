@@ -150,7 +150,7 @@ useEffect(()=>{
     
 },[])
 return (
-<>    <div className='mainsignup'>
+<>    <div className='mainsignup h-[100%] '  >
     <form  id='signup' action="" onSubmit={gayoData}>
           <h1 className='h1'>Sign Up</h1>
           <input  id='intr' className='signupinput' type="text" value={obj.user} name='user' placeholder='Enter Your User Name' onChange={handelChange} onBlur={javTyare} onFocus={aavoTyare}/>

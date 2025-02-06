@@ -42,13 +42,13 @@ function App() {
 
 
 
-          {isOpen ? <div id="toggle_div" className={   `  h-[100%]   ${isOpen ? "block" : "hidden"}`}     >
+          {isOpen ? <div id="toggle_div" className={` h-[100vh]  ${isOpen ? "block" : "hidden"}`}     >
 
 
             <Link to={'/'}>
-            <div id="Logo" className="w-[100%] h-[80px]   border-[#6A6657]  flex justify-center items-center">
-              <h1 className="text-[36px] font-[600]">
-                <i className="fa-regular fa-chess-king"></i> Tushal
+            <div id="Logo" className="w-[100%] h-[80px] pe-[10px]  border-[#6A6657]  flex justify-center items-center">
+              <h1 id='tushal' className="text-[30px] font-[600]">
+               <img src="https://img.pikbest.com/origin/09/25/73/25qpIkbEsT5w8.png!bw700" className='inline-block  w-[60px]   '  alt="" />  Tushal
               </h1>
             </div>
 
@@ -145,7 +145,9 @@ function App() {
             <Link to={'/'}>
 
             <div id="Logo" className="w-[100%] h-[80px] flex   border-[#6A6657]  justify-center items-center">
-              <i className="fa-regular fa-chess-king text-[35px] "></i>
+              {/* <i className="fa-regular fa-chess-king text-[35px] "></i> */}
+              <img src="https://img.pikbest.com/origin/09/25/73/25qpIkbEsT5w8.png!bw700" className='inline-block  w-[60px]   '  alt="" /> 
+
             </div>
             </Link>
 
@@ -202,8 +204,8 @@ function App() {
         >
 
 {/* Navbar ............ */}
-
-<div id="Navbar" className="w-[100%] h-[80px]   bg-[#19191C]  text-[white] ">
+{/* bg-[#19191C] */}
+<div id="Navbar" className="w-[100%] h-[80px] bg-[#19191C]    text-[white] ">
         
 
         
@@ -229,7 +231,7 @@ function App() {
                   <div className='w-[70%] sm:w-[40%] h-[100%]   flex items-center justify-evenly relative'>
         
                     {/* <i class="fa-solid   fa-magnifying-glass text-gray-300 text-[15px] absolute top-5 left-2"></i> */}
-                    <input className='w-[70%]  z-0 h-[30px]  bg-[gray] sm:w-[90%]  xl:ms-[-17px] sm:ms-[5px]  lg:h-[35px] lg:w-[300px] text-[20px] border-1 border-gray-400 rounded-[12px] ps-[20px] ' type="text" placeholder='Search' /> </div>
+                    <input id='soso' className='w-[70%]  z-0 h-[30px] sm:w-[90%]  xl:ms-[-17px] sm:ms-[5px]  lg:h-[35px] lg:w-[300px] text-[20px] border-1 border-gray-400 rounded-[12px] ps-[20px] ' type="text" placeholder='Search' /> </div>
         
         
                   {/* <div className='flex items-center w-[120px] lg:w-[125px] xl:w-[200px]  hidden '>
@@ -259,12 +261,12 @@ function App() {
         
         
         
-                  </div>
+              </div>
 
 
           
      
-          <div  className='scroll-smooth h-[91.5vh]  overflow-auto  border-[red] p-2 ' >
+          <div  className='scroll-smooth h-[91.5vh]  overflow-auto  border-[red]  ' >
          
 
         <MainRouts/>

@@ -98,7 +98,7 @@ function UserData() {
                                     <h1 className='text-[18px]'>{el.email}</h1>
                                 </div>
                                 <div className='w-[15%] h-[100%]  flex items-center justify-center'>
-                                    <h1 className='text-[18px]'>₹{el.pass}</h1>
+                                    <h1 className='text-[18px]'>{el.pass}</h1>
                                 </div>
                                 <div className='w-[10%] h-[100%] flex items-center justify-center'>
                                     {/* <Link to={`/product/${el.id}`}>  */}
