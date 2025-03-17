@@ -7,43 +7,43 @@ const Box = () => {
   const [customerSatisfaction, setCustomerSatisfaction] = useState(0);
 
   useEffect(() => {
-    // Simulate counter animation for products sold
+  
     const intervalProductsSold = setInterval(() => {
       setProductsSold((prev) => {
         if (prev < 565) return prev + 1;
-        clearInterval(intervalProductsSold); // Stop counter once target is reached
+        clearInterval(intervalProductsSold); 
         return prev;
       });
     }, 1);
 
-    // Simulate counter animation for net profit
+    
     const intervalNetProfit = setInterval(() => {
       setNetProfit((prev) => {
         if (prev < 541) return prev + 1;
-        clearInterval(intervalNetProfit); // Stop counter once target is reached
+        clearInterval(intervalNetProfit); 
         return prev;
       });
     }, 1);
 
-    // Simulate counter animation for new customers
+  
     const intervalNewCustomers = setInterval(() => {
       setNewCustomers((prev) => {
         if (prev < 565) return prev + 1;
-        clearInterval(intervalNewCustomers); // Stop counter once target is reached
+        clearInterval(intervalNewCustomers);
         return prev;
       });
     }, 10);
 
-    // Simulate counter animation for customer satisfaction
+   
     const intervalCustomerSatisfaction = setInterval(() => {
       setCustomerSatisfaction((prev) => {
         if (prev < 99) return prev + 1;
-        clearInterval(intervalCustomerSatisfaction); // Stop counter once target is reached
+        clearInterval(intervalCustomerSatisfaction); 
         return prev;
       });
     },10);
 
-    // Cleanup intervals on component unmount
+    
     return () => {
       clearInterval(intervalProductsSold);
       clearInterval(intervalNetProfit);

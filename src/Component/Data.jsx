@@ -10,9 +10,9 @@ function Data() {
 
     var navigat = useNavigate()
 
-    const [filterPrice, setFilterPrice] = useState('');  // State for price filter
-    const [searchTitle, setSearchTitle] = useState('');  // State for search filter by title
-    const [sortOrder, setSortOrder] = useState('');  // State for sorting order (asc or desc)
+    const [filterPrice, setFilterPrice] = useState('');
+    const [searchTitle, setSearchTitle] = useState('');
+    const [sortOrder, setSortOrder] = useState('');  
     let[PT,setPT]=useState(0)
 
     useEffect(() => {
@@ -23,11 +23,7 @@ function Data() {
     console.log(dataa.arr);
 
     localStorage.setItem("pro_pr",dataa.arr.length)
-    // var dataa = useSelector(state => state.productReducer);
-
-    // console.log("Loading Status:", dataa.isLoding);
-    // console.log(dataa);
-
+   
     function handelDelet(delId) {
         // console.log(delId);
         dispatch(deleteData(delId))
@@ -68,27 +64,27 @@ function Data() {
 
 
 
-// Filter data based on selected price range, search title, and sorting
+// Filter data 
 const filteredData = dataa.arr.filter((el) => {
-    // Price filter logic
+    
     const priceFilter = filterPrice ?
         el.price >= filterPrice.split('-')[0] && el.price <= filterPrice.split('-')[1]
         : true;
 
-    // Title search filter logic (case-insensitive)
+    
     const titleFilter = el.Title.toLowerCase().includes(searchTitle.toLowerCase());
 
     return priceFilter && titleFilter;
 });
 
-// Sort filtered data based on price and selected sort order (asc or desc)
+// Sort  data
 const sortedData = filteredData.sort((a, b) => {
     if (sortOrder === 'asc') {
-        return a.price - b.price; // Ascending order
+        return a.price - b.price;
     } else if (sortOrder === 'desc') {
-        return b.price - a.price; // Descending order
+        return b.price - a.price;
     } else {
-        return 0; // No sorting
+        return 0; 
     }
 });
 
@@ -315,7 +311,7 @@ const sortedData = filteredData.sort((a, b) => {
                     </div>
                     <div style={modalStyle}>
 
-                        {/* Close button */}
+                     
                         <button onClick={closeModal} style={closeButtonStyle}>X</button>
                     </div>
                 </div>
